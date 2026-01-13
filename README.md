@@ -13,5 +13,6 @@ The starter workflow lives at `.github/workflows/security.yml` and runs:
 - Semgrep (SAST)
 - OSV-Scanner (dependency vulnerabilities)
 - Trivy (filesystem dependency + OS package scan)
+- Kingfisher (secrets)
 
 Do not deploy the included app to any environment you care about.
