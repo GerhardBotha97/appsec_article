@@ -10,9 +10,8 @@ This repo vendors an intentionally vulnerable app so you can iterate on GitHub A
 
 The starter workflow lives at `.github/workflows/security.yml` and runs:
 
-- CodeQL (JavaScript)
+- Semgrep (SAST)
 - OSV-Scanner (dependency vulnerabilities)
 - Trivy (filesystem dependency + OS package scan)
 
 Do not deploy the included app to any environment you care about.
-

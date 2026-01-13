@@ -1,8 +1,0 @@
-name: "CodeQL config"
-
-paths:
-  - vulnerable/nodegoat
-
-paths-ignore:
-  - "**/node_modules/**"
-
