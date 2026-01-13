@@ -89,7 +89,7 @@ jobs:
         run: |
           docker run --rm \
             -v "${GITHUB_WORKSPACE}":/src \
-            ghcr.io/mongodb/kingfisher:v1.73.0 \
+            ghcr.io/mongodb/kingfisher:1.73.0 \
               scan /src/vulnerable/nodegoat \
               --git-history=none \
               --no-update-check \
